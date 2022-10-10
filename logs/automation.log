@@ -1,0 +1,424 @@
+2022-10-10 14:04:45.904 INFO   -com.challenge.process.CreatePetProcess.bodyPet(CreatePetProcess.java:22) com.challenge.process.CreatePetProcess - Body: {
+  "id": 439,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 14:04:47.774 INFO   -com.challenge.process.CreatePetProcess.bodyPet(CreatePetProcess.java:22) com.challenge.process.CreatePetProcess - Body: {
+  "id": 439,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 14:08:47.889 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:27) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 8957,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 14:11:09.033 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:27) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 4391,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 14:13:27.519 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 14:13:27.532 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:29) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 2979,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 14:13:33.568 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:40) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:02:19.093 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:02:19.101 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:25) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 6626,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:02:24.685 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:36) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:02:25.073 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:02:25.073 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:24) com.challenge.process.GetPetProcess - Get Pet ID: 6626
+2022-10-10 15:02:27.400 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:35) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:02:27.470 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:02:27.470 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:25) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 6626,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:02:28.773 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:36) com.challenge.process.UpdatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:09:31.293 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:09:31.302 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:26) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 9433,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:09:37.184 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:38) com.challenge.process.CreatePetProcess - Response Post: io.restassured.internal.ValidatableResponseImpl@353aadd7
+2022-10-10 15:09:37.185 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:39) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:09:37.478 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:09:37.478 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:25) com.challenge.process.GetPetProcess - Get Pet ID: 9433
+2022-10-10 15:09:38.809 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:37) com.challenge.process.GetPetProcess - Response Get: io.restassured.internal.ValidatableResponseImpl@2cf7860e
+2022-10-10 15:09:38.809 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:38) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:09:38.874 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:09:38.874 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:26) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 9433,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:09:40.078 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:38) com.challenge.process.UpdatePetProcess - Response Update: io.restassured.internal.ValidatableResponseImpl@674c9079
+2022-10-10 15:09:40.078 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:39) com.challenge.process.UpdatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:12:13.480 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:12:13.491 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:12:13.491 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:26) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 7806,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:12:19.281 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:38) com.challenge.process.CreatePetProcess - Response Post: {"id":7806,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:12:19.281 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:39) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:12:19.598 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:12:19.599 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:12:19.599 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:25) com.challenge.process.GetPetProcess - Get Pet ID: 7806
+2022-10-10 15:12:20.813 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:37) com.challenge.process.GetPetProcess - Response Get: {"id":7806,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:12:20.813 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:38) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:12:20.881 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:12:20.881 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:12:20.881 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:26) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 7806,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:12:22.053 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:38) com.challenge.process.UpdatePetProcess - Response Update: {"id":7806,"category":{"id":0,"name":"doggy"},"name":"puppy","photoUrls":["string"],"tags":[{"id":0,"name":"doggy"}],"status":"available"}
+2022-10-10 15:12:22.053 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:39) com.challenge.process.UpdatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:19:28.028 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:19:28.038 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:19:28.038 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:26) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 3351,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:19:33.126 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:38) com.challenge.process.CreatePetProcess - Response Post: {"id":3351,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:19:33.126 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:39) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:19:33.390 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:19:33.391 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:19:33.391 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:25) com.challenge.process.GetPetProcess - Get Pet ID: 3351
+2022-10-10 15:19:34.598 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:37) com.challenge.process.GetPetProcess - Response Get: {"id":3351,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:19:34.599 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:38) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:19:34.655 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:19:34.655 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Configuration
+2022-10-10 15:19:34.656 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:26) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 3351,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:19:35.813 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:38) com.challenge.process.UpdatePetProcess - Response Update: {"id":3351,"category":{"id":0,"name":"doggy"},"name":"puppy","photoUrls":["string"],"tags":[{"id":0,"name":"doggy"}],"status":"available"}
+2022-10-10 15:19:35.814 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:39) com.challenge.process.UpdatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:26:04.524 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:26:04.538 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Send Post Configuration
+2022-10-10 15:26:04.539 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:26) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 2279,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:26:10.484 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:38) com.challenge.process.CreatePetProcess - Response Post: {"id":2279,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:26:10.484 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:39) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:26:10.795 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:26:10.798 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Send Get Configuration
+2022-10-10 15:26:10.799 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:26) com.challenge.process.GetPetProcess - Get Pet ID: 2279
+2022-10-10 15:26:12.076 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:38) com.challenge.process.GetPetProcess - Response Get: {"id":2279,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:26:12.076 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:39) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:26:12.150 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:26:12.151 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Send Put Configuration
+2022-10-10 15:26:12.152 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:26) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 2279,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:26:13.339 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:38) com.challenge.process.UpdatePetProcess - Response Update: {"id":2279,"category":{"id":0,"name":"doggy"},"name":"puppy","photoUrls":["string"],"tags":[{"id":0,"name":"doggy"}],"status":"available"}
+2022-10-10 15:26:13.339 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:39) com.challenge.process.UpdatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:29:35.831 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:29:35.837 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Post Configuration
+2022-10-10 15:29:35.838 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:26) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 8960,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:29:41.299 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:38) com.challenge.process.CreatePetProcess - Response Post: {"id":8960,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:29:41.300 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:39) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:29:41.475 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:29:41.475 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Get Configuration
+2022-10-10 15:29:41.477 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:26) com.challenge.process.GetPetProcess - Get Pet ID: 8960
+2022-10-10 15:29:45.822 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:38) com.challenge.process.GetPetProcess - Response Get: {"id":8960,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:29:45.824 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:39) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:29:45.946 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:29:45.946 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Put Configuration
+2022-10-10 15:29:45.947 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:26) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 8960,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:31:11.728 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:31:11.739 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Post Configuration
+2022-10-10 15:31:11.739 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:26) com.challenge.process.CreatePetProcess - Body to send: {
+  "id": 593,
+  "category": {
+    "id": 0,
+    "name": "dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:31:16.678 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:38) com.challenge.process.CreatePetProcess - Response Post: {"id":593,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:31:16.678 INFO   -com.challenge.process.CreatePetProcess.sendPost(CreatePetProcess.java:39) com.challenge.process.CreatePetProcess - Status Code and Schema Response OK
+2022-10-10 15:31:17.063 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:31:17.063 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Get Configuration
+2022-10-10 15:31:17.064 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:26) com.challenge.process.GetPetProcess - Get Pet ID: 593
+2022-10-10 15:31:18.327 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:38) com.challenge.process.GetPetProcess - Response Get: {"id":593,"category":{"id":0,"name":"dogs"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"dog"}],"status":"available"}
+2022-10-10 15:31:18.328 INFO   -com.challenge.process.GetPetProcess.getPet(GetPetProcess.java:39) com.challenge.process.GetPetProcess - Status Code and Schema Response OK
+2022-10-10 15:31:18.399 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:26) com.challenge.config.ConfigPage - -------------------
+2022-10-10 15:31:18.400 INFO   -com.challenge.config.ConfigPage.setup(ConfigPage.java:27) com.challenge.config.ConfigPage - Start Put Configuration
+2022-10-10 15:31:18.400 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:26) com.challenge.process.UpdatePetProcess - Body to send: {
+  "id": 593,
+  "category": {
+    "id": 0,
+    "name": "doggy"
+  },
+  "name": "puppy",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "doggy"
+    }
+  ],
+  "status": "available"
+}
+2022-10-10 15:31:19.569 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:38) com.challenge.process.UpdatePetProcess - Response Update: {"id":593,"category":{"id":0,"name":"doggy"},"name":"puppy","photoUrls":["string"],"tags":[{"id":0,"name":"doggy"}],"status":"available"}
+2022-10-10 15:31:19.570 INFO   -com.challenge.process.UpdatePetProcess.sendPut(UpdatePetProcess.java:39) com.challenge.process.UpdatePetProcess - Status Code and Schema Response OK

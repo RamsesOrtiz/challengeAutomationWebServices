@@ -1,0 +1,6 @@
+com\challenge\config\LoggerPage.class
+com\challenge\process\UpdatePetProcess.class
+com\challenge\config\ConfigPage.class
+com\challenge\process\CreatePetProcess.class
+com\challenge\process\GetPetProcess.class
+com\challenge\config\PropertiesPage.class

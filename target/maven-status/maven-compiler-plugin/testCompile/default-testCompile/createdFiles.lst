@@ -1,0 +1,4 @@
+com\challenge\defs\CreatePetTest.class
+com\challenge\defs\GetPetTest.class
+com\challenge\defs\UpdatePetTest.class
+com\challenge\RunCucumberTest.class

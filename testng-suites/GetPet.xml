@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GetPet">
+    <test verbose="2" preserve-order="true" name="GetPet">
+        <classes>
+            <class name="com.challenge.defs.GetPetTest">
+                <methods>
+                    <include name="a_user_with_a_pet_id"/>
+                    <include name="send_a_get_to_service_path"/>
+                    <include name="server_response_is_ok_and_with_a_get_valid_schema"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UpdatePet">
+    <test verbose="2" preserve-order="true" name="UpdatePet">
+        <classes>
+            <class name="com.challenge.defs.UpdatePetTest">
+                <methods>
+                    <include name="a_user_with_a_previous_pet_created"/>
+                    <include name="send_a_put_to_update_service_path"/>
+                    <include name="server_response_is_ok_and_with_put_valid_schema"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

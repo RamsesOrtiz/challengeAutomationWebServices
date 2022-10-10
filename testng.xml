@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation WebServices Challenge"  >
+    <test name="Automation WebServices Challenge on petstore.swagger.io">
+        <classes>
+            <class name="com.challenge.RunCucumberTest"/>
+        </classes>
+    </test>
+    <suite-files>
+        <suite-file path="testng-suites/CreatePet.xml"/>
+        <suite-file path="./testng-suites/GetPet.xml"/>
+        <suite-file path="./testng-suites/UpdatePet.xml"/>
+    </suite-files>
+</suite>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T15:31:05 ART" name="GetPet" finished-at="2022-10-10T15:31:05 ART" duration-ms="1">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T15:31:05 ART" name="GetPet" finished-at="2022-10-10T15:31:05 ART" duration-ms="1">
+    </test> <!-- GetPet -->
+  </suite> <!-- GetPet -->
+  <suite started-at="2022-10-10T15:31:05 ART" name="UpdatePet" finished-at="2022-10-10T15:31:05 ART" duration-ms="1">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T15:31:05 ART" name="UpdatePet" finished-at="2022-10-10T15:31:05 ART" duration-ms="1">
+    </test> <!-- UpdatePet -->
+  </suite> <!-- UpdatePet -->
+  <suite started-at="2022-10-10T15:31:05 ART" name="Automation WebServices Challenge" finished-at="2022-10-10T15:31:19 ART" duration-ms="14100">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.challenge.RunCucumberTest@47c64cfe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-10-10T15:31:05 ART" name="Automation WebServices Challenge on petstore.swagger.io" finished-at="2022-10-10T15:31:19 ART" duration-ms="14100">
+      <class name="com.challenge.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.challenge.RunCucumberTest@47c64cfe]" started-at="2022-10-10T15:31:05 ART" name="setUpClass" finished-at="2022-10-10T15:31:07 ART" duration-ms="2189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b131102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.challenge.RunCucumberTest@47c64cfe]" started-at="2022-10-10T15:31:07 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T15:31:16 ART" duration-ms="9103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a Pet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automation WebServices Challenge on petstore.swagger.io"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.challenge.RunCucumberTest@47c64cfe]" started-at="2022-10-10T15:31:17 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T15:31:18 ART" duration-ms="1317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get a Pet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automation WebServices Challenge on petstore.swagger.io"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.challenge.RunCucumberTest@47c64cfe]" started-at="2022-10-10T15:31:18 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T15:31:19 ART" duration-ms="1201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a Pet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automation WebServices Challenge on petstore.swagger.io"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.challenge.RunCucumberTest@47c64cfe]" started-at="2022-10-10T15:31:19 ART" name="tearDownClass" finished-at="2022-10-10T15:31:19 ART" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.challenge.RunCucumberTest -->
+    </test> <!-- Automation WebServices Challenge on petstore.swagger.io -->
+  </suite> <!-- Automation WebServices Challenge -->
+  <suite started-at="2022-10-10T15:31:05 ART" name="CreatePet" finished-at="2022-10-10T15:31:05 ART" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T15:31:05 ART" name="CreatePet" finished-at="2022-10-10T15:31:05 ART" duration-ms="51">
+    </test> <!-- CreatePet -->
+  </suite> <!-- CreatePet -->
+</testng-results>
