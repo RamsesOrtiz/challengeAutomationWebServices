@@ -21,7 +21,7 @@ Schema del response.
 
 ## Datos Técnicos:
 - Java 11
-- RestAssure
+- RestAssured
 - TestNg
 - Cucumber
 - Allure (Report)
