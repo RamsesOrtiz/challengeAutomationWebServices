@@ -1,7 +1,6 @@
 package com.challenge.config;
 
 import io.cucumber.java.BeforeAll;
-import io.cucumber.java.BeforeStep;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -11,6 +10,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.apache.http.HttpStatus;
 import org.apache.logging.log4j.Logger;
+import org.testng.annotations.BeforeSuite;
 
 import static com.challenge.config.LoggerPage.logger;
 
@@ -18,13 +18,13 @@ public class ConfigPage {
 
     private static final Logger logger = logger(ConfigPage.class);
 
-    public static void setup(String step) {
+    public static void setup() {
         RestAssured.requestSpecification = defaultRequestSpecification();
         RestAssured.responseSpecification = defaultResponseSpecification();
-        RestAssured.requestSpecification = new RequestSpecBuilder().build().filter(new AllureRestAssured());
+        RestAssured.filters(new AllureRestAssured());
 
         logger.info("-------------------");
-        logger.info("Start " + step + " Configuration");
+        logger.info("Start Configuration");
     }
 
     public static RequestSpecification defaultRequestSpecification() {

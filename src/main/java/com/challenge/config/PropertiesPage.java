@@ -4,8 +4,6 @@ public class PropertiesPage {
 
     public static final String URI = "https://petstore.swagger.io/v2/pet";
 
-    public static final String getURI = "https://petstore.swagger.io/v2/pet/";
-
     public static String SERVER_RESPONSE = "";
 
     public static int id = (int) (Math.random() * 10000 + 1);
