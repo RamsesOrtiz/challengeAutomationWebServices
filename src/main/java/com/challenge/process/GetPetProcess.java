@@ -22,14 +22,13 @@ public class GetPetProcess extends ConfigPage {
 
     public static void getPet() {
 
-        setup("Get");
-        logger.info("Get Pet ID: " + getPetId());
+        setup();
 
         try {
             ValidatableResponse get = RestAssured
                     .given()
                     .when()
-                    .get(getURI + getPetId())
+                    .get(URI + "/" + getPetId())
                     .then()
                     .statusCode(HttpStatus.SC_OK)
                     .assertThat()
@@ -43,6 +42,8 @@ public class GetPetProcess extends ConfigPage {
             logger.error("Status Code and Schema Response Error: " + e);
             SERVER_RESPONSE = "Status Code and Schema Response Error";
         }
+
+        RestAssured.reset();
     }
 
     public static String validateResponse() {

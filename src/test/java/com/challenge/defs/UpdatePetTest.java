@@ -1,9 +1,13 @@
 package com.challenge.defs;
 
+import com.challenge.config.ConfigPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import static com.challenge.config.PropertiesPage.*;
 import static com.challenge.process.UpdatePetProcess.*;

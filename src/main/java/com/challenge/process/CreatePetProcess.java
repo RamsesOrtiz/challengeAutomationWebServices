@@ -22,8 +22,7 @@ public class CreatePetProcess extends ConfigPage {
 
     public static void sendPost() {
 
-        setup("Post");
-        logger.info("Body to send: " + bodyPet());
+        setup();
 
         try {
             ValidatableResponse post = RestAssured
@@ -43,6 +42,8 @@ public class CreatePetProcess extends ConfigPage {
             logger.error("Status Code and Schema Response Error: " + e);
             SERVER_RESPONSE = "Status Code and Schema Response Error";
         }
+
+        RestAssured.reset();
     }
 
     public static String validateResponse() {
